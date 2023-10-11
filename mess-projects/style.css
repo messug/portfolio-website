@@ -1,0 +1,59 @@
+*
+
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  
+}
+body
+{
+  color: #bd4444;
+}
+.header{
+  position: fixed;
+  top: 0;
+  right: 10px;
+  width: 100%;
+  padding: 200px 10%;
+  background:radial-gradient(radial-gradient);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+
+}
+.logo{
+  position: relative;
+  font-size: 25px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+.navibar a {
+  display: inline-block;
+  font-size: 25px;
+  color: #881ebd;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 35px;
+  transition: .3s;
+}
+.navibar a:hover{
+  color:#Bef;
+
+}
+.home{
+  position: relative;
+  width: 100%;
+  justify-content: space-between;
+  height: 100vh;
+  background: url(mess-projects/images/mountains-landscape-pink-view_23-2148279189.png) no-repeat;
+  background-size: fixed;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding: 70px;
+}
+
